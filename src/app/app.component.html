@@ -1,81 +1,19 @@
 <style>
   :host {
-    color: #3e3e4b;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
-
-  h1,
-  h2 {
-    font-weight: 500;
-    margin: 0;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  img {
-    height: 100%;
-  }
-
-  header {
-    height: 60px;
-    display: flex;
-    padding: 0 2rem;
-    border-bottom: 1px solid #ddd;
-    box-shadow: -2px 2px 8px #ccc;
-  }
-
-  header .brand {
-    display: flex;
-    align-items: center;
-  }
-
-  header .brand img {
-    height: 42px;
-    margin-right: 1rem;
-  }
-
-  main {
-    flex: 1;
-    min-width: 70%;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-
-  .teaser {
-    flex: 1;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 2px 2px 8px #ccc;
-  }
-
-  .teaser h2 {
-    padding: 0 1rem 0.5rem;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 1rem;
-  }
-
-  .teaser .content {
-    padding: 1rem 1rem;
-  }
 </style>
 
-<header>
-  <div class='brand'>
-    <img alt='Logo' src='/assets/logo.svg'>
-    <h1>Angular</h1>
-  </div>
+<header class="flex h-16 bg-gray-50 shadow-lg px-2 items-center">
+    <img class="h-12" alt='Logo' src='/assets/logo.svg'>
+    <h1 class="text-2xl font-semibold">Angular</h1>
 </header>
-<main>
-  <div class='teaser'>
-    <h2>Lean Angular</h2>
-    <div class='content'>
+<main class="flex-1 flex flex-col items-center justify-center">
+  <div class='border border-gray-100 p-4 shadow-lg'>
+    <h2 class="text-2xl border-gray-200 border-b px-2 pb-2">Lean Angular</h2>
+    <div class='px-2 mt-2'>
       Ein schlanker Weg, Angular zu meistern.
     </div>
   </div>
