@@ -10,6 +10,7 @@
           "skipTests": true
         },
         "@schematics/angular:component": {
+          "style": "scss",
           "skipTests": true
         },
         "@schematics/angular:directive": {
@@ -48,7 +49,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/styles.scss"
             ],
             "scripts": []
           },
@@ -115,7 +116,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/styles.scss"
             ],
             "scripts": []
           }
